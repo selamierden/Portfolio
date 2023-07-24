@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolyo</title>
+  <link rel="stylesheet" href="navstyle.css">
+  <link rel="stylesheet" href="workcard.css">
+  <link rel="stylesheet" href="cardstyle.css">
+  <link rel="stylesheet" href="toggle.css">
+  <link rel="stylesheet" href="mode.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+</head>
+
+<body>
+  <nav>
+    <div class="navbar-left">
+      <button id="selamibtn">Selami Erden</button>
+    </div>
+    <div class="navbar-right">
+      <a>
+        <button  data-text="Awesome" class="navbutton">
+          <span class="actual-text">&nbsp;Home&nbsp;</span>
+          <span class="hover-text" aria-hidden="true">&nbsp;Home&nbsp;</span>
+        </button>
+      </a>
+      <a href="work.html">
+        <button data-text="Awesome" class="navbutton">
+          <span class="actual-text">&nbsp;Work&nbsp;</span>
+          <span class="hover-text" aria-hidden="true">&nbsp;Work&nbsp;</span>
+        </button>
+      </a>
+      <a>
+        <button data-text="Awesome" class="navbutton">
+          <span class="actual-text">&nbsp;About&nbsp;</span>
+          <span class="hover-text" aria-hidden="true">&nbsp;About&nbsp;</span>
+        </button>
+      </a>
+    </div>
+    <div>
+      <label class="theme-switch">
+        <input id="darkmode" type="checkbox" class="theme-switch__checkbox">
+        <div class="theme-switch__container">
+          <div class="theme-switch__clouds"></div>
+          <div class="theme-switch__stars-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 55" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M135.831 3.00688C135.055 3.85027 134.111 4.29946 133 4.35447C134.111 4.40947 135.055 4.85867 135.831 5.71123C136.607 6.55462 136.996 7.56303 136.996 8.72727C136.996 7.95722 137.172 7.25134 137.525 6.59129C137.886 5.93124 138.372 5.39954 138.98 5.00535C139.598 4.60199 140.268 4.39114 141 4.35447C139.88 4.2903 138.936 3.85027 138.16 3.00688C137.384 2.16348 136.996 1.16425 136.996 0C136.996 1.16425 136.607 2.16348 135.831 3.00688ZM31 23.3545C32.1114 23.2995 33.0551 22.8503 33.8313 22.0069C34.6075 21.1635 34.9956 20.1642 34.9956 19C34.9956 20.1642 35.3837 21.1635 36.1599 22.0069C36.9361 22.8503 37.8798 23.2903 39 23.3545C38.2679 23.3911 37.5976 23.602 36.9802 24.0053C36.3716 24.3995 35.8864 24.9312 35.5248 25.5913C35.172 26.2513 34.9956 26.9572 34.9956 27.7273C34.9956 26.563 34.6075 25.5546 33.8313 24.7112C33.0551 23.8587 32.1114 23.4095 31 23.3545ZM0 36.3545C1.11136 36.2995 2.05513 35.8503 2.83131 35.0069C3.6075 34.1635 3.99559 33.1642 3.99559 32C3.99559 33.1642 4.38368 34.1635 5.15987 35.0069C5.93605 35.8503 6.87982 36.2903 8 36.3545C7.26792 36.3911 6.59757 36.602 5.98015 37.0053C5.37155 37.3995 4.88644 37.9312 4.52481 38.5913C4.172 39.2513 3.99559 39.9572 3.99559 40.7273C3.99559 39.563 3.6075 38.5546 2.83131 37.7112C2.05513 36.8587 1.11136 36.4095 0 36.3545ZM56.8313 24.0069C56.0551 24.8503 55.1114 25.2995 54 25.3545C55.1114 25.4095 56.0551 25.8587 56.8313 26.7112C57.6075 27.5546 57.9956 28.563 57.9956 29.7273C57.9956 28.9572 58.172 28.2513 58.5248 27.5913C58.8864 26.9312 59.3716 26.3995 59.9802 26.0053C60.5976 25.602 61.2679 25.3911 62 25.3545C60.8798 25.2903 59.9361 24.8503 59.1599 24.0069C58.3837 23.1635 57.9956 22.1642 57.9956 21C57.9956 22.1642 57.6075 23.1635 56.8313 24.0069ZM81 25.3545C82.1114 25.2995 83.0551 24.8503 83.8313 24.0069C84.6075 23.1635 84.9956 22.1642 84.9956 21C84.9956 22.1642 85.3837 23.1635 86.1599 24.0069C86.9361 24.8503 87.8798 25.2903 89 25.3545C88.2679 25.3911 87.5976 25.602 86.9802 26.0053C86.3716 26.3995 85.8864 26.9312 85.5248 27.5913C85.172 28.2513 84.9956 28.9572 84.9956 29.7273C84.9956 28.563 84.6075 27.5546 83.8313 26.7112C83.0551 25.8587 82.1114 25.4095 81 25.3545ZM136 36.3545C137.111 36.2995 138.055 35.8503 138.831 35.0069C139.607 34.1635 139.996 33.1642 139.996 32C139.996 33.1642 140.384 34.1635 141.16 35.0069C141.936 35.8503 142.88 36.2903 144 36.3545C143.268 36.3911 142.598 36.602 141.98 37.0053C141.372 37.3995 140.886 37.9312 140.525 38.5913C140.172 39.2513 139.996 39.9572 139.996 40.7273C139.996 39.563 139.607 38.5546 138.831 37.7112C138.055 36.8587 137.111 36.4095 136 36.3545ZM101.831 49.0069C101.055 49.8503 100.111 50.2995 99 50.3545C100.111 50.4095 101.055 50.8587 101.831 51.7112C102.607 52.5546 102.996 53.563 102.996 54.7273C102.996 53.9572 103.172 53.2513 103.525 52.5913C103.886 51.9312 104.372 51.3995 104.98 51.0053C105.598 50.602 106.268 50.3911 107 50.3545C105.88 50.2903 104.936 49.8503 104.16 49.0069C103.384 48.1635 102.996 47.1642 102.996 46C102.996 47.1642 102.607 48.1635 101.831 49.0069Z" fill="currentColor"></path>
+            </svg>
+          </div>
+          <div class="theme-switch__circle-container">
+            <div class="theme-switch__sun-moon-container">
+              <div class="theme-switch__moon">
+                <div class="theme-switch__spot"></div>
+                <div class="theme-switch__spot"></div>
+                <div class="theme-switch__spot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </label>
+    </div>
+  </nav>
+
+  <!--home-->
+  <div style="display: flex;">
+    <div class="pcard" style="margin-left: 250px; margin-top: 100px;">
+        <div class="pcard-photo"></div>
+        <div class="pcard-title">Selami Erden <br>
+            <span>Front-End Dev &amp; Analyst</span>
+        </div>
+        <div class="card-socials">
+            <a href="https://facebook.com" target="_blank">
+              <button class="card-socials-btn facebook">
+                <svg data-name="Layer 21" height="24" id="Layer_21" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" class="icon"><title></title><path d="M16.75,9H13.5V7a1,1,0,0,1,1-1h2V3H14a4,4,0,0,0-4,4V9H8v3h2v9h3.5V12H16Z"></path></svg>
+              </button>
+            </a>
+            <a href="https://github.com/selamierden" target="_blank">
+              <button class="card-socials-btn github">
+                <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg>
+              </button>  
+            </a>
+            <a href="https://www.linkedin.com/in/selami-erden-a54154226/" target="_blank">
+              <button class="card-socials-btn linkedin">
+                <svg xmlns="http://www.w3.org/2000/svg" width="512" viewBox="0 0 512 512" height="512"><path d="m51.326 185.85h90.011v270.872h-90.011zm45.608-130.572c-30.807 0-50.934 20.225-50.934 46.771 0 26 19.538 46.813 49.756 46.813h.574c31.396 0 50.948-20.814 50.948-46.813-.589-26.546-19.551-46.771-50.344-46.771zm265.405 124.209c-47.779 0-69.184 26.28-81.125 44.71v-38.347h-90.038c1.192 25.411 0 270.872 0 270.872h90.038v-151.274c0-8.102.589-16.174 2.958-21.978 6.519-16.174 21.333-32.923 46.182-32.923 32.602 0 45.622 24.851 45.622 61.248v144.926h90.024v-155.323c0-83.199-44.402-121.911-103.661-121.911z"></path></svg>
+              </button>
+            </a>                      
+        </div>
+      </div>
+      <div id="infotext" class="custom-card">
+        <h1><span id="hellospan">Hello!</span> <br> I'm Selami , a Front-End <br> Developer in Turkey.  <i style="color:orangered;" class="fa-solid fa-code"></i></h1>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br><br><br>
+
+  <div style="display: flex; justify-content: center;" >
+    <h1 style="font-size: 60px;">Works.</h1>
+  </div>
+
+  <br><br>
+
+  <!--work-->
+
+ <div style="display: flex; align-items: flex-start; justify-content: space-around;">
+  <div>
+    <h1>BetterInvestment</h1>
+    <p>BetterInvestment , genellikle kripto para yatırımcıları için <br> bir yatırım iyileştirme projesidir. <br> <br>
+    Kullanıcıların yatırımlarını anlık takip etmelerini , <br> ve kayıt altına almalarını sağlar.</p>
+  </div>
+    <div id="btrcard" class="btr-card-container">
+      <div class="btr-card">
+      <div class="btr-img-content">
+        <img src="img/etter1.png">
+      </div>
+      <div class="btr-content">
+        <p class="btr-heading">BetterInvestment</p>
+        <p>
+          Key of Gold Door Bitcoin and Everything for better investment.
+        </p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  
+
+
+  <script src="toggle.js"></script>
+
+  
+</body>
+
+</html>

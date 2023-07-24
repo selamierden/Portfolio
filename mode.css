@@ -1,0 +1,29 @@
+/* Add the following CSS rules to your existing toggle.css file or create a new one */
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+  
+  .dark-mode .navbutton {
+    border-color: #ffffff;
+    color: #ffffff;
+  }
+  
+  .dark-mode .theme-switch__clouds {
+    background-color: #ffffff;
+  }
+  
+  .dark-mode .theme-switch__stars-container svg path {
+    fill: #ffffff;
+  }
+  
+  .dark-mode .theme-switch__moon {
+    background-color: #ffffff;
+  }
+  
+  .dark-mode .theme-switch__spot {
+    background-color: #1c1c1c;
+  }
+  
