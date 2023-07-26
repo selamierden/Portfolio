@@ -1,0 +1,16 @@
+/* Adjust the image size and spacing as needed */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 800px; /* Adjust the container width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  /* Ensure images don't exceed the container width */
+  .image-grid img {
+    padding: 15px;
+    max-width: 100%;
+    height: auto;
+  }
+  
