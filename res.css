@@ -1,0 +1,17 @@
+
+@media only screen and (max-width: 768px) {
+
+    .pcard {
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+    #infotext {
+      text-align: center;
+    }
+    #works {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  
