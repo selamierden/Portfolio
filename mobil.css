@@ -14,11 +14,11 @@
         margin-left: none;
         margin-right: none;
     }
-    #btri {
+    #worksone {
         flex-direction: column;
     }
     #btrcard {
-        width: 300px;
+        width: 360px;
         height: 300px;
     }
 }
